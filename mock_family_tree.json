@@ -1,0 +1,36 @@
+{
+    "name": "House Stark",
+    "children": [
+        {
+            "name": "Eddard Stark",
+            "children": [
+                {
+                    "name": "Robb Stark"
+                },
+                {
+                    "name": "Sansa Stark"
+                },
+                {
+                    "name": "Arya Stark"
+                },
+                {
+                    "name": "Bran Stark"
+                },
+                {
+                    "name": "Rickon Stark"
+                }
+            ]
+        },
+        {
+            "name": "Benjen Stark"
+        },
+        {
+            "name": "Lyanna Stark",
+            "children": [
+                {
+                    "name": "Jon Snow"
+                }
+            ]
+        }
+    ]
+}

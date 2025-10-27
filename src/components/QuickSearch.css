@@ -1,0 +1,224 @@
+.quick-search-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.search-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.quick-search-container .search-header .back-button {
+    padding: 0.5rem 1rem;
+    background-color: #2196F3;
+    color: #ffffff !important;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(33, 150, 243, 0.2);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+.quick-search-container .search-header .back-button:hover {
+    background-color: #1976D2;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(33, 150, 243, 0.25);
+    color: #ffffff !important;
+}
+
+.quick-search-container .search-header h1 {
+    margin: 0;
+    color: #4a5568 !important;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.2s ease;
+    background-color: white;
+    color: #1a202c;
+}
+
+.search-box input:focus {
+    border-color: #2196F3;
+    box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.1);
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin-top: 0.5rem;
+    max-height: 400px;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.search-result-item {
+    padding: 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid #e2e8f0;
+    transition: background-color 0.2s ease;
+}
+
+.search-result-item:last-child {
+    border-bottom: none;
+}
+
+.search-result-item:hover {
+    background-color: #f7fafc;
+}
+
+.member-name {
+    font-weight: 500;
+    color: #1a202c;
+    margin-bottom: 0.25rem;
+}
+
+.member-house {
+    font-size: 0.875rem;
+    color: #4a5568;
+}
+
+.member-details {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: #2196F3;
+    color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.details-header h2 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.details-header button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.details-header button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.details-content {
+    padding: 1.5rem;
+}
+
+/* Add overlay when member details are shown */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.detail-section {
+    margin-bottom: 1.5rem;
+}
+
+.detail-section h3 {
+    color: #2d3748;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.detail-section p {
+    color: #4a5568;
+    margin: 0;
+}
+
+.detail-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.detail-section li {
+    color: #4a5568;
+    padding: 0.25rem 0;
+}
+
+/* Add these mobile-specific styles */
+@media (max-width: 768px) {
+    .quick-search-container {
+        margin: 1rem auto;
+        padding: 0 1rem;
+    }
+
+    .search-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .search-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .member-details {
+        width: 95%;
+        max-height: 90vh;
+    }
+
+    .search-box input {
+        padding: 0.75rem;
+        font-size: 16px;
+        /* Prevent zoom on iOS */
+    }
+
+    .search-results {
+        max-height: 50vh;
+    }
+}

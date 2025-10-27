@@ -1,0 +1,228 @@
+{
+    "name": "Great Houses of Westeros",
+    "children": [
+        {
+            "name": "House Stark",
+            "children": [
+                {
+                    "name": "Eddard Stark",
+                    "children": [
+                        {
+                            "name": "Robb Stark",
+                            "children": []
+                        },
+                        {
+                            "name": "Sansa Stark",
+                            "children": []
+                        },
+                        {
+                            "name": "Arya Stark",
+                            "children": []
+                        },
+                        {
+                            "name": "Bran Stark",
+                            "children": []
+                        },
+                        {
+                            "name": "Rickon Stark",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Benjen Stark",
+                    "children": []
+                },
+                {
+                    "name": "Lyanna Stark",
+                    "children": [
+                        {
+                            "name": "Jon Snow",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "House Lannister",
+            "children": [
+                {
+                    "name": "Tywin Lannister",
+                    "children": [
+                        {
+                            "name": "Cersei Lannister",
+                            "children": [
+                                {
+                                    "name": "Joffrey Baratheon",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Myrcella Baratheon",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Tommen Baratheon",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Jaime Lannister",
+                            "children": []
+                        },
+                        {
+                            "name": "Tyrion Lannister",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Kevan Lannister",
+                    "children": [
+                        {
+                            "name": "Lancel Lannister",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "House Targaryen",
+            "children": [
+                {
+                    "name": "Aerys II Targaryen",
+                    "children": [
+                        {
+                            "name": "Rhaegar Targaryen",
+                            "children": []
+                        },
+                        {
+                            "name": "Viserys Targaryen",
+                            "children": []
+                        },
+                        {
+                            "name": "Daenerys Targaryen",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "House Baratheon",
+            "children": [
+                {
+                    "name": "Steffon Baratheon",
+                    "children": [
+                        {
+                            "name": "Robert Baratheon",
+                            "children": []
+                        },
+                        {
+                            "name": "Stannis Baratheon",
+                            "children": [
+                                {
+                                    "name": "Shireen Baratheon",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Renly Baratheon",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "House Tyrell",
+            "children": [
+                {
+                    "name": "Mace Tyrell",
+                    "children": [
+                        {
+                            "name": "Loras Tyrell",
+                            "children": []
+                        },
+                        {
+                            "name": "Margaery Tyrell",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Olenna Tyrell",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "House Greyjoy",
+            "children": [
+                {
+                    "name": "Balon Greyjoy",
+                    "children": [
+                        {
+                            "name": "Rodrik Greyjoy",
+                            "children": []
+                        },
+                        {
+                            "name": "Maron Greyjoy",
+                            "children": []
+                        },
+                        {
+                            "name": "Yara Greyjoy",
+                            "children": []
+                        },
+                        {
+                            "name": "Theon Greyjoy",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Euron Greyjoy",
+                    "children": []
+                },
+                {
+                    "name": "Aeron Greyjoy",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "House Martell",
+            "children": [
+                {
+                    "name": "Doran Martell",
+                    "children": [
+                        {
+                            "name": "Trystane Martell",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Oberyn Martell",
+                    "children": [
+                        {
+                            "name": "Obara Sand",
+                            "children": []
+                        },
+                        {
+                            "name": "Nymeria Sand",
+                            "children": []
+                        },
+                        {
+                            "name": "Tyene Sand",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
