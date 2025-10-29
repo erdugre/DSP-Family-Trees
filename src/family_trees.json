@@ -1264,7 +1264,9 @@
                         { "name": "Rish Gharekhan", "children":[
                             { "name": "Ajay Kolli", "children":[
                                 { "name": "Shreyas Padamatinti", "children":[
-                                    { "name": "Neel Parameswaran", "children": [] }
+                                    { "name": "Neel Parameswaran", "children": [
+                                        { "name": "Nik Pillai", "children": [] }
+                                    ] }
                                 ] },
                                 { "name": "Adam Ahmed", "children":[
                                     { "name": "Stephan Bejger", "children": [
