@@ -90,12 +90,13 @@
                                                     "name": "Aislinn Perez",
                                                     "children": [
                                                         {
-                                                            "name": "Alaina Harris",
-                                                            "children": []
-                                                        },
-                                                        {
                                                             "name": "Jojo Ying",
-                                                            "children": []
+                                                            "children": [
+                                                                {
+                                                                    "name": "Alaina Harris",
+                                                                    "children": []
+                                                                }
+                                                            ]
                                                         }
                                                     ]
                                                 }
@@ -1369,7 +1370,10 @@
                             { "name": "Ajay Kolli", "children":[
                                 { "name": "Shreyas Padamatinti", "children":[
                                     { "name": "Neel Parameswaran", "children": [
-                                        { "name": "Nik Pillai", "children": [] }
+                                        { "name": "Nik Pillai", "children": [] },
+                                        { "name": "Nirvaan", "children": [
+                                            { "name": "Kunal Bham", "children": [] }
+                                        ] }
                                     ] }
                                 ] },
                                 { "name": "Adam Ahmed", "children":[
